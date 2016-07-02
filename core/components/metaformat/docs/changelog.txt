@@ -1,0 +1,46 @@
+--------------------------------------
+Changelog: #NAME#
+--------------------------------------
+
+Version: 1.2.2
+
+- Bug fixes
+- Use &excludeBase to exclude the base tag 
+
+==============================
+
+Version: 1.2.1
+
+- Exclude title if &titleItem is empty
+- Exclude keywords if &keywordsItem is empty
+- Exclude description if &descriptionItem is empty
+- Exclude author if &authorItem is empty
+- Exclude title if &titleItem is empty
+- &titleItem can now be a template variable too
+- Updated MetaFormatTitle chunk to make it more customisable
+- Turned on caching
+
+==============================
+
+Version: 1.2.0
+
+- Updated transport mechanism and package structure
+- Now uses chunks instead of DOMDocument for tag generation
+- Added &preMain, &postMain, &preCSS, $postCSS, &preJS, &postJS, &appendCSS, icon
+- Removed lang, excludeTags
+- Updated documentation at http://madaboutbrighton.net/projects/metaformat
+- NOTE - if using hostAll, hostMedia or hostCode make sure you use a full domain, e.g. //cdn-media.madaboutbrighton.net/
+
+==============================
+
+Version: 1.1.3
+
+Added excludeTags functionality:-
+
+- A comma seperated list of tag names can be specified, which will be excluded from the output
+
+==============================
+
+Version: 1.1.2
+
+- Fixed, appendTag variable not defined, error

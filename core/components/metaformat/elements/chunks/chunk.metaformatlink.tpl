@@ -1,0 +1,1 @@
+<link href="[[+url]]" [[+sizes:notempty=`sizes="[[+sizes]]"`]] [[+media:notempty=`media="[[+media]]"`]] [[+rel:notempty=`rel="[[+rel]]"`]] [[+type:notempty=`type="[[+type]]"`]] />
