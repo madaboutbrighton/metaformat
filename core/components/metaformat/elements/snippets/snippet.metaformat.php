@@ -30,9 +30,16 @@
  *
  */
 
+if ($modx-getOption('site_dev') == "Yes")
+{
+    $p = $modx->getOption('metaformat.core_path');
+  } else {
+    $p = $modx->getOption('core_path').'components/metaformat/';
+}
+
 $mf = $modx->getService(  'metaformat',
                           'MetaFormat',
-                          $modx->getOption('metaformat.core_path', null, $modx->getOption('core_path').'components/metaformat/').'model/metaformat/'
+                          $p.'model/metaformat/'
                         );
                           
 if (!($mf instanceof MetaFormat)) return '';
