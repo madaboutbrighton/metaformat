@@ -30,7 +30,7 @@
  *
  */
 
-if ($modx-getOption('site_dev') == "Yes")
+if ($modx->getOption('site_dev') == 1)
 {
     $p = $modx->getOption('metaformat.core_path');
   } else {
