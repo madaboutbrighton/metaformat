@@ -4,7 +4,7 @@ A PHP MODX Revolution extra to automatically generate html meta tags
 
 Official Documentation:
 
-http://madaboutbrighton.net/projects/metaformat
+https://madaboutbrighton.net/projects/metaformat
 
 Requires:
 
